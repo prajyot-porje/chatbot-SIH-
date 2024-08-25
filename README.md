@@ -13,4 +13,3 @@
   <li>Quick inquiry responses for museum timings, location, exhibitions, and facilities</li>
   <li>Feedback and rating system to enhance user experience</li>
 </ul>
-
