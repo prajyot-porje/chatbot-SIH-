@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>Virasat
+
+    </title>
+</head>
+
+<body>
+    <nav class="bg-[#543310]">
+        <div class="relative w-[1080px] h-[60px] mx-auto flex items-center justify-between ">
+
+            <!-- logo -->
+            <a href="/" class="cursor-pointer py-4 pr-7 flex gap-5">
+                <img src="./images/logo (1).png" width="30px" height="30px" />
+                <h5
+                    class="text-white font-mullish text-[20px] hover:font-bold cursor-pointer transition-all duration-200">
+                    App name</h5>
+            </a>
+
+            <ul class="flex items-center space-x-6">
+                <li class="text-white font-mullish py-4 hover:font-semibold cursor-pointer
+                 transition-all duration-200 relative group">
+                    <a href="#">Home</a>
+
+                </li>
+
+                <li class="text-white font-mullish py-4 hover:font-semibold cursor-pointer
+                                 transition-all duration-200 relative group">
+                    <a href="#">About</a>
+
+                </li>
+
+                <li class="text-white font-mullish py-4 hover:font-semibold cursor-pointer
+                                 transition-all duration-200 relative group">
+                    <a href="#">Support</a>
+
+                </li>
+
+                <li class="text-white font-mullish py-4 hover:font-semibold cursor-pointer
+                                 transition-all duration-200 relative group">
+                    <a href="#">FAQs</a>
+
+                </li>
+
+                <li>
+                    <button class="py-2 px-5 font-mullish text-white border-white border
+                                                    rounded-sm text-sm  hover:font-bold transition-all duration-200">
+                        Log in
+                    </button>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+
+    <!--Hero Section-->
+    <div class="relative bg-[url('./images/museum-9.jpg')] w-1340px h-[720px] bg-cover bg-center">
+
+        <!-- search bar -->
+        <!-- <div class="absolute inset-0 flex items-center justify-center">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search "> -->
+        <!-- <form class="bg-white p-4 rounded-full shadow-lg flex">
+                <input type="text" placeholder="Search..."
+                    class="px-4 py-2 w-[150px] h-3 text-black rounded-l-full focus:outline-none">
+                <button type="submit"
+                    class="bg-[#543310] text-white px-6 py-2 rounded-r-full hover:bg-[#6f4517]">Search</button>
+
+
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form> -->
+
+        <div class="absolute inset-0 flex flex-col items-center justify-center justify-between">
+            <input class="form-control w-[521px] h-[44px] mt-24 rounded-md  " type="search" placeholder="Search "
+                aria-label="Search">
+            <button class="bg-[#74512D] w-[333px] h-[76px] rounded-full -mt-8 mb-24 text-[#F8F4E1] font-bold">
+                Start Booking
+            </button>
+        </div>
+
+    </div>
+
+
+
+    <!-- cards -->
+
+
+
+    <!-- <div class="col">
+        <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                    dy=".3em">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <!-- cards -->
+
+    <!-- 
+    <div class="flex-container">
+        <div class="card w-424px h-272px m-35px 925" style="width: 18rem;">
+            <img src="./images/museum-3.avif" class="card-img-top" alt="sunflower">
+            <div class="card-body">
+                <h5 class="card-title bold">National Museum, New Delhi</h5>
+                <p class="card-text">
+                    Situated in the heart of the capital, the National Museum is one of the largest in India. It
+                    features an extensive
+                    collection of artifacts from across the country, including relics from the Indus Valley
+                    Civilization, Mughal-era
+                    paintings, and ancient manuscripts
+                </p>
+
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <!-- Cards Section -->
+    <div class="container my-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Card 1 -->
+            <div class="col">
+                <div class="card h-100 p-3">
+                    <img src="./images/museum-3.avif" class="card-img-top" alt="National Museum, New Delhi">
+                    <div class="card-body">
+                        <h5 class="card-title font-bold font-mullish">National Museum, New Delhi</h5>
+                        <p class="card-text">Situated in the heart of the capital, the National Museum is one of the
+                            largest
+                            in India. It
+                            features an extensive collection of artifacts from across the country, including relics from
+                            the
+                            Indus Valley
+                            Civilization, Mughal-era paintings, and ancient manuscripts.</p>
+                        <a href="#" class="btn btn-primary">read more</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card h-100 p-3">
+                    <img src="./images/museum-2.jpg" class="card-img-top" alt="National Museum, New Delhi">
+                    <div class="card-body">
+                        <h5 class="card-title font-mullish font-bold ">National Museum, New Delhi</h5>
+                        <p class="card-text">Situated in the heart of the capital, the National Museum is one of the
+                            largest
+                            in India. It
+                            features an extensive collection of artifacts from across the country, including relics from
+                            the
+                            Indus Valley
+                            Civilization, Mughal-era paintings, and ancient manuscripts.</p>
+                        <a href="#" class="btn btn-primary">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 p-3">
+                    <img src="./images/museum-5.jpg" class="card-img-top" alt="National Museum, New Delhi">
+                    <div class="card-body">
+                        <h5 class="card-title font-mullish font-bold">National Museum, New Delhi</h5>
+                        <p class="card-text">Situated in the heart of the capital, the National Museum is one of the
+                            largest
+                            in India. It
+                            features an extensive collection of artifacts from across the country, including relics from
+                            the
+                            Indus Valley
+                            Civilization, Mughal-era paintings, and ancient manuscripts.</p>
+                        <a href="#" class="btn btn-primary">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 p-3">
+                    <img src="./images/museum-3.avif" class="card-img-top" alt="National Museum, New Delhi">
+                    <div class="card-body">
+                        <h5 class="card-title font-mullish font-bold">National Museum, New Delhi</h5>
+                        <p class="card-text">Situated in the heart of the capital, the National Museum is one of the
+                            largest
+                            in India. It
+                            features an extensive collection of artifacts from across the country, including relics from
+                            the
+                            Indus Valley
+                            Civilization, Mughal-era paintings, and ancient manuscripts.</p>
+                        <a href="#" class="btn btn-primary">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 p-3">
+                    <img src="./images/museum-3.avif" class="card-img-top" alt="National Museum, New Delhi">
+                    <div class="card-body">
+                        <h5 class="card-title font-mullish font-bold">National Museum, New Delhi</h5>
+                        <p class="card-text">Situated in the heart of the capital, the National Museum is one of the
+                            largest
+                            in India. It
+                            features an extensive collection of artifacts from across the country, including relics from
+                            the
+                            Indus Valley
+                            Civilization, Mughal-era paintings, and ancient manuscripts.</p>
+                        <a href="#" class="btn btn-primary">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 p-3">
+                    <img src="./images/museum-3.avif" class="card-img-top" alt="National Museum, New Delhi">
+                    <div class="card-body">
+                        <h5 class="card-title font-mullish font-bold">National Museum, New Delhi</h5>
+                        <p class="card-text">Situated in the heart of the capital, the National Museum is one of the
+                            largest
+                            in India. It
+                            features an extensive collection of artifacts from across the country, including relics from
+                            the
+                            Indus Valley
+                            Civilization, Mughal-era paintings, and ancient manuscripts.</p>
+                        <a href="#" class="btn btn-primary">read more</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <!-- Footer -->
+            <div class="container bg-[#543310]">
+                <footer
+                    class=" row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top text-center text-md-start">
+                    <!-- Logo and Copyright -->
+                    <!-- <div class="col mb-3">
+                        <a href="/"
+                            class="d-flex align-items-center justify-content-center justify-content-md-start mb-3 link-body-emphasis text-decoration-none">
+                            <img src="./images/logo (1).png" alt="App Logo" width="40" height="40">
+                        </a>
+                        <p class="text-body-secondary text-center text-md-start">© 2024 Your Company Name</p>
+                    </div> -->
+
+                    <!-- Spacer for alignment -->
+                    <div class="col mb-3"></div>
+
+                    <!-- Footer Links - Section 1 -->
+                    <div class="col mb-3">
+                        <h5 class=" text-white font-mullish font-bold">Get to know Us</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2 "><a href="#" class="nav-link p-0 text-white">Home</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Museums</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!-- Footer Links - Section 2 -->
+                    <div class="col mb-3">
+                        <h5 class=" text-white font-mullish font-bold">Resources</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2 "><a href="#" class="nav-link p-0 text-white">Blog</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Help
+                                    Center</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Support</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact
+                                    Us</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Footer Links - Section 3 -->
+                    <div class="col mb-3">
+                        <h5 class=" text-white font-mullish font-bold">Let Us Help You</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Your
+                                    Account</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Previous
+                                    Book</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Payment
+                                    History</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
